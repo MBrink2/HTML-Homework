@@ -40,30 +40,36 @@
           </ul>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row">
-          <div class="col-md-7"> 
-            <div class="summary">
-              <h1> Summary: Weather and Lattitude</h1>
-              <p><img src="images/latmaxtemp.png" alt="lat vs max temp" width="200px" height="150px" id="summary-image"> </p>
-                <p>This project analyzed weather patterns from 546 locations around the world. We took a look at maximum temperatures, humidity levels, cloudiness levels and wind speed. We used Pandas, MatPlotLib and Python API to analyze the data and HTML, CSS and bootstrap to display our findings. The images displayed here represent the main pieces of the findings from this project. By clicking on an image you will be taken to the corresponding landing page for more information. </p
-                </div> 
-              </div>
 
-            </div>
-            <div class="col-md-1 col-sm-12"></div>
-            <div class="col-md-4 col-sm-12" id="visualizations">
-                <h1 id="visualtext">Visualizations</h1>
-                <hr>
-                <a href="max_temprature.html"><img src="images/latmaxtemp.png" alt="lat vs max temp" class="visualizations"></a>
-                <a href="humidity.html"><img src="images/lathumid.png" alt="lat vs humidity" class="visualizations"></a>
-                <a href="cloudiness.html"><img src="images/latcloud.png" alt="lat vs cloudiness" class="visualizations"></a>
-                <a href="windspeed.html"><img src="images/latwind.png" alt= "lat vs wind speed" class="visualizations"></a>
-            </div>
-          </div>
- <!-- Json fix from cody for dropdown -->
+    <div class="container" style="background-color:white;">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h1>Weather Comparisons</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12" id="visualizations">
+        <h2>vs. Max Temp</h2>
+        <a href="max_temprature.html"><img src="images/latmaxtemp.png" alt="lat vs max temp" class="visualizations"></a>
+    </div>
+      <div class="col-md-6 col-sm-12" id="visualizations">
+          <h2>vs. Humidity</h2>
+          <a href="humidity.html"><img src="images/lathumid.png" alt="lat vs humidity" class="visualizations"></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-12" id="visualizations">
+            <h2>vs. Cloudiness</h2>
+            <a href="cloudiness.html"><img src="images/latcloud.png" alt="lat vs cloudiness" class="visualizations"></a>
+        </div>
+        <div class="col-md-6 col-sm-12" id="visualizations">
+            <h2>vs. Wind Speed</h2>
+            <a href="windspeed.html"><img src="images/latwind.png" alt=" alt = "lat vs wind speed" class="visualizations"></a>
+        </div>
+    </div>
+  </div>
+
+  <!-- Json fix from cody for dropdown -->
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 <html>
-

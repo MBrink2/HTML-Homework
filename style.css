@@ -1,0 +1,61 @@
+.navbar-header .navbar-brand {
+    font-size: 28px;
+    color: white;
+    background-color: #5f4aaa;
+    font-weight: bold;
+}
+h1 {
+    color: #5f4aaa;
+    font-weight: bold;
+}
+h2 {
+    color: #5f4aaa;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+#summary {
+    background-color: white;
+}
+
+#visualizations {
+    background-color: white;
+}
+#visualtext {
+    font-size: 28px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.text-muted {
+    color: white;
+}
+
+#summary-image {
+    width: 500px;
+    height: 400px;
+}
+
+.visualization-imgs {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#sum-image {
+    display: block;
+    width: 480px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comparison-imgs {
+    width: 480px;
+    padding: 10px;
+    display: inline-block;
+}
